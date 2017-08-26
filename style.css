@@ -1,0 +1,86 @@
+<style>
+div  input:hover
+   { 
+     background: #BBEA00;
+   }
+
+div  input:active
+   { 
+      background:#EEFFA8;
+   }
+   
+
+div input
+{
+	background:    #331100;
+    color:         white;   
+}
+
+div form input
+ {
+   width:         80px;
+   height:        70px; 
+   font-size:     50px; 
+   border-radius: 8px;
+   background:    #331100;
+   color:         white;
+   text-decoration: none;
+ }
+
+marquee
+ {
+   font-family:    Agency fb;
+   color:          white;
+   background-color: #331100;
+   font-size:     25px;
+   margin:        8px;
+   height:        30px; 
+   border-radius: 8px;
+ }
+
+
+ h1
+ {
+	display:        inline-block;
+	background:     #331100;
+	color:          white;
+	list-style-type: none;
+	margin:         0px 70px 0px px;
+    padding:        5px 25px 5px 25px;
+	border-radius:  10px;
+	font-size:      40px;
+ }
+ 
+ b
+ {
+   font-family:   Agency fb;
+   color:         white;
+   background-color: #331100;
+   font-size:     30px;
+   margin:        8px;
+   height:        20px; 
+   border-radius: 8px;
+ }
+
+#one{
+    width:        328px; 
+	height:       60px; 
+	background:   #EEFFA8;
+    color:        #331100;	
+	text-align:   right; 
+	font-size:    30px; 
+	border-radius:8px;
+	margin:       2px;  
+	border-color: black;
+    } 
+   
+#two
+   {
+    width:         163px; 
+	height:        70px;
+	font-size:     50px; 
+	border-radius: 8px;
+    margin:        0px;
+   
+   }
+</style>
