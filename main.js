@@ -1,8 +1,8 @@
-<script>
+//Event functionalities on calc buttons....
 function btnplus()
 {
 document.Calculator.display.value +="+";
-document.Calculator.display.style. textAlign="right";
+document.Calculator.display.style.textAlign="right"
 }
 
 function btnsub()
@@ -40,6 +40,3 @@ function btnclear()
 document.Calculator.display.value ="";
 document.Calculator.display.style.textAlign="right";
 }
-
-
-</script>

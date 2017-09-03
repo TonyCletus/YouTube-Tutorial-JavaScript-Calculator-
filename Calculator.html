@@ -2,17 +2,9 @@
 <html>
 <head>
 <title>My Calculator</title>
-
-<script>
-var bleep = new Audio();
-   bleep.src = "sound/button6.wav";
-
-</script>
-
 <link href="style.css" rel="stylesheet" type="text/css">
-
-
 </head>
+
 <body background="images/cd.jpg">
 <center>
 <br/>
@@ -55,55 +47,12 @@ var bleep = new Audio();
 </div>
 </form>
 
-<script>
-function btnplus()
-{
-document.Calculator.display.value +="+";
-document.Calculator.display.style.textAlign="right"
-}
-
-function btnsub()
-{
-document.Calculator.display.value +="-";
-document.Calculator.display.style.textAlign="right";
-}
-
-function btnmult()
-{
-document.Calculator.display.value +="*";
-document.Calculator.display.style.textAlign="right";
-}
-
-function btnmod()
-{
-document.Calculator.display.value +="%";
-document.Calculator.display.style.textAlign="right";
-}
-
-function btndot()
-{
-document.Calculator.display.value +=".";
-document.Calculator.display.style.textAlign="right";
-}
-
-function btndiv()
-{
-document.Calculator.display.value +="/";
-document.Calculator.display.style.textAlign="right";
-}
-
-function btnclear()
-{
-document.Calculator.display.value ="";
-document.Calculator.display.style.textAlign="right";
-}
-
-</script>
-
-
 <br/>
 <b> Powered by TonyCletus </b>
 
 </center>
+
+<script src="main.js"></script>
+<script src="sound.js"></script>
 </body>
 </html>
